@@ -13,13 +13,14 @@ int main()
     }
     else
     {
+        printf("ALPHA\n");
         if(ch>='A' && ch<='Z')
         {
-            printf("ALPHA\nIS CAPITAL\n");
+            printf("IS CAPITAL\n");
         }
         else if(ch>='a' && ch<='z')
         {
-            printf("ALPHA\nIS SMALL\n");
+            printf("IS SMALL\n");
         }
     }
     return 0;
